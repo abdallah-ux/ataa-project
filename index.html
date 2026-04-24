@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>عطاء | منصة التبرع بالملابس</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+<!---------------------- Header ------------------------------------->
+<header class="header">
+  <div class="logo">
+    <img src="images/logo.jpeg" alt="logo">
+  </div>
+
+  <nav class="nav" id="nav">
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="charity.html">الجمعيات</a></li>
+      <li><a href="about.html">عن المنصة</a></li>
+      <li><a href="contact.html">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <div class="buttons">
+    <a class="login" href="login&&register.html">دخول</a>
+    <a class="signup" href="login&&register.html">حساب جديد</a>
+  </div>
+
+  <div class="menu" id="menu">☰</div>
+</header>
+
+<!------------------------------------ sec1--------------------------------->
+<section class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+   <h1>اجعل ملابسك <span class="color">أملًا جديدًا </span>في حياة الآخرين</h1>
+    <p>
+      منصة عطاء تهدف إلى ربط المتبرعين بالجمعيات الخيرية بسهولة وأمان،
+      لنمنح الملابس المستعملة فرصة جديدة تصنع فرقًا حقيقيًا.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="donation.html"><button class="btn primary">ابدأ التبرع الآن</button></a>
+      <a href="about.html"><button class="btn outline light">تعرف علينا أكثر</button></a>
+    </div>
+  </div>
+</section>
+
+<!-----------------------------------sec2-------------------------------->
+<section class="how">
+  <h2 class="title-how">كيف تساهم معنا؟</h2>
+    <p>
+      نحن نوفر منصة سهلة وآمنة تربط بين المتبرعين والجمعيات الخيرية
+       <br>لتحقيق أقصى استفادة من الملابس المستعملة وخدمة المجتمع.
+    </p>
+
+
+  <div class="cards">
+
+    <div class="cardo">
+      <div class="icon">🎁</div>
+      <h3>متبرع</h3>
+      <p> لديك ملابس بحالة جيدة؟ تبرع بها الآن وساهم في إدخال
+        الفرحة على من يحتاجها</p>
+
+      <button>سجل الآن</button>
+    </div>
+
+    <!--<div class="cardo">
+      <div class="icon">🛡️</div>
+      <h3>أدمن</h3>
+      <p>
+        إدارة المنصة، متابعة المستخدمين والتبرعات،
+        وعرض التقارير والإحصائيات.
+      </p>
+    </div>-->
+
+    <div class="cardo">
+      <div class="icon">🏢</div>
+      <h3>جمعية خيرية</h3>
+      <p>
+        سجّل جمعيتك معنا لإدارة التبرعات واستلام الملابس
+        وتوزيعها على المحتاجين.
+      </p>
+      <button>سجل الآن</button>
+    </div>
+
+    
+  </div>
+</section>
+<!----------------------------------------------------------------------------------------------------------->
+
+<!--<section class="contribute">
+  <h2>كيف تساهم معنا؟</h2>
+  <p class="subtitle">
+    نحن نوفر منصة سهلة وآمنة تربط بين المتبرعين والجمعيات الخيرية
+    لتحقيق أقصى استفادة من الملابس المستعملة وخدمة المجتمع.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">🎁</div>
+      <h3>متبرع</h3>
+      <p>
+        لديك ملابس بحالة جيدة؟ تبرع بها الآن وساهم في إدخال
+        الفرحة على من يحتاجها.
+      </p>
+      <a href="#" onclick="openForm('متبرع')">سجّل كمتبرع</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🛡️</div>
+      <h3>أدمن</h3>
+      <p>
+        إدارة المنصة، متابعة المستخدمين والتبرعات،
+        وعرض التقارير والإحصائيات.
+      </p>
+     <a href="#" onclick="openForm('أدمن')">تسجيل أدمن</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏢</div>
+      <h3>جمعية خيرية</h3>
+      <p>
+        سجّل جمعيتك معنا لإدارة التبرعات واستلام الملابس
+        وتوزيعها على المحتاجين.
+      </p>
+      <a href="#" onclick="openForm('جمعية خيرية')">سجّل جمعيتك</a>
+    </div>
+
+  </div>
+</section>-->
+
+<!-------------------------------form------------------------------------------>
+
+<!--<div class="modal" id="registerModal">
+  <div class="modal-content">
+    <span class="close" onclick="closeForm()">×</span>
+
+    <h2>إنشاء حساب جديد</h2>
+
+    <input type="text" placeholder="الاسم بالكامل">
+    <input type="email" placeholder="البريد الإلكتروني">
+
+    <div class="row">
+      <input type="password" placeholder="كلمة المرور">
+      <select id="accountType">
+        <option>متبرع</option>
+        <option>جمعية خيرية</option>
+        <option>أدمن</option>
+      </select>
+    </div>
+
+    <button class="btn primary full">تسجيل حساب جديد</button>
+
+    <p class="login-text">
+      لديك حساب بالفعل؟
+      <a href="#">سجل دخولك</a>
+    </p>
+  </div>
+</div>-->
+
+
+
+
+
+<!----------------------------sec3--------------------------------->
+
+<section class="stats">
+  <div class="stat">
+    <h3 id="clothes">0</h3>
+    <p>قطعة ملابس وزعت</p>
+  </div>
+
+  <div class="stat">
+    <h3 id="charities">0</h3>
+    <p>جمعية شريكة</p>
+  </div>
+
+  <div class="stat">
+    <h3 id="volunteers">0</h3>
+    <p>متطوع نشط</p>
+  </div>
+</section>
+
+
+<!-----------------------sec4---------------------------------------->
+<section class="info">
+  <div>
+    <h2>منصة عطاء</h2>
+    <p>
+      منصة عطاء تهدف إلى تنظيم التبرع بالملابس المستعملة
+      وربط المتبرعين بالجمعيات الخيرية بكل سهولة وأمان.
+    </p>
+  </div>
+
+  <div class="links">
+    <a href="#">سياسة الخصوصية</a>
+    <a href="#">الشروط والأحكام</a>
+    <a href="#">الأسئلة الشائعة</a>
+  </div>
+</section>
+
+<!------------------------FOOTER----------------------------------->
+<footer class="footer">
+  منصة عطاء © جميع الحقوق محفوظة
+</footer>
+
+    
+<script src="script/main.js">
+
+//  عشان الأنيميشن يشتغل مرة واحدة بس
+let started = false;
+
+//  دالة العد
+function animateCount(element, target) {
+  let start = 0;
+  let duration = 1500;
+  let increment = target / (duration / 16);
+
+  function update() {
+    start += increment;
+
+    if (start < target) {
+      element.innerText = "+" + Math.floor(start);
+      requestAnimationFrame(update);
+    } else {
+      element.innerText = "+" + target;
+    }
+  }
+
+  update();
+}
+
+//  لما السكشن يظهر في الشاشة
+window.addEventListener("scroll", function () {
+  const section = document.querySelector(".stats");
+
+  if (!started && section.getBoundingClientRect().top < window.innerHeight) {
+    started = true;
+
+    //  هنا بنجيب الداتا من الباك
+    fetch("https://your-api.com/dashboard/stats") // غير اللينك ده
+      .then(res => res.json())
+      .then(data => {
+        animateCount(document.getElementById("clothes"), data.clothes);
+        animateCount(document.getElementById("charities"), data.charities);
+        animateCount(document.getElementById("volunteers"), data.volunteers);
+      })
+      .catch(err => console.log(err));
+  }
+});
+
+</script>
+</body>
+</html>

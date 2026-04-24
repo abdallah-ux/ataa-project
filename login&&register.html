@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alagatrack Login/Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/login&&register.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+     <div class="container" id="container">
+        
+        <div class="side-panel welcome-panel">
+            <div class="panel-content panel-login-mode">
+                <h1>Hello, Welcome To Alagatrack!</h1>
+                <p>Don't have an account?</p>
+                <button class="ghost-btn" id="register-toggle">Register</button>
+            </div>
+            
+            <div class="panel-content panel-register-mode">
+                <h1>Welcome Back!</h1>
+                <p>Already have an account?</p>
+                <button class="ghost-btn" id="login-toggle">Login</button>
+            </div>
+        </div>
+
+        <div class="forms-container">
+            
+            <div class="form-wrapper register-form" >
+                <h2>Registration</h2>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Username" required  id="username">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Email" requiredid="email" id="email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required id="password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <button class="action-btn register-submit-btn" id="sign_up">Register</button>
+                </form>
+                
+                <p class="social-text">or register with social platforms</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a> 
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="form-wrapper login-form">
+                <h2>Login</h2>
+                <form>
+                    <div class="input-group">
+                        <input type="text" placeholder="Username" required id="usernameLogin">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" placeholder="Password" required id="passwordLogin">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                    <button class="action-btn login-btn" id="sign_in">Login</button>
+                </form>
+                
+                <p class="social-text">or login with social platforms</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a> <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script/switch.js"></script>
+    <script src="script/register.js"></script>
+    <script src="script/login.js"></script>
+</body>
+</html>
